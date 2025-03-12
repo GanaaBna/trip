@@ -75,3 +75,34 @@ article {
 .margin276 {
   margin-top: 276px;
 }
+.price{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px ;
+}
+.packs{
+  display: flex;
+  margin-top: 80px;
+  gap: 40px;
+}
+.price-title :last-child{
+  font-size: 48px;
+  text-align: center;
+}
+.price-title :last-child{
+  text-align: center;
+}
+.pack{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.pack ul{
+  margin-left: 20px;
+}
+.green-border{
+  border: #18ba51 solid 2px;
+  border-radius: 8px;
+}
